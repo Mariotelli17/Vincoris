@@ -1,13 +1,21 @@
-import { Hero } from "@/components/sections/Hero";
-import { Problem } from "@/components/sections/Problem";
-import { Solution } from "@/components/sections/Solution";
+import { CtaFinalSection } from "@/components/sections/CtaFinalSection";
+import { DiferenciacionSection } from "@/components/sections/DiferenciacionSection";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { ProblemaSection } from "@/components/sections/ProblemaSection";
+import { ProcesoSection } from "@/components/sections/ProcesoSection";
+import { SolucionSection } from "@/components/sections/SolucionSection";
+import { TestimoniosSection } from "@/components/sections/TestimoniosSection";
 
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <Problem />
-      <Solution />
+      <HeroSection />
+      <ProblemaSection />
+      <SolucionSection />
+      <DiferenciacionSection />
+      <ProcesoSection />
+      <TestimoniosSection />
+      <CtaFinalSection />
     </main>
   );
 }
