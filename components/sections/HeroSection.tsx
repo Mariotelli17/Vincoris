@@ -20,10 +20,10 @@ export function HeroSection() {
         <p className="text-sm font-semibold uppercase tracking-widest text-brand-500">
           {eyebrow}
         </p>
-        <h1 className="mt-3 text-4xl font-bold leading-tight text-white md:text-6xl">
+        <h1 className="mt-3 text-4xl font-bold leading-tight text-slate-900 md:text-6xl">
           {title}
         </h1>
-        <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-300 lg:mx-0">
+        <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-600 lg:mx-0">
           {description}
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4 lg:justify-start">
@@ -35,14 +35,14 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="relative h-[320px] overflow-hidden rounded-3xl border border-slate-800/80 bg-slate-900 shadow-2xl shadow-black/30 md:h-[460px]">
+      <div className="relative h-[320px] overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-lg md:h-[460px]">
         <Image
           alt="Cuidadora asistiendo en silla de ruedas durante una visita de asistencia domiciliaria"
           className="hidden object-cover md:block"
           fill
           priority
           sizes="(max-width: 768px) 0px, (max-width: 1280px) 42vw, 520px"
-          src="/images/hero/hero-caregiver-wheelchair.jpg"
+          src="/images/hero/hero-caregiver-wheelchair.png"
         />
         <Image
           alt="Cuidadora acompañando a una persona mayor en casa, versión recortada para móvil"
@@ -50,7 +50,7 @@ export function HeroSection() {
           fill
           priority
           sizes="(max-width: 768px) calc(100vw - 3rem), 0px"
-          src="/images/hero/hero-caregiver-wheelchair-mobile.jpg"
+          src="/images/hero/hero-caregiver-wheelchair-mobile.png"
         />
       </div>
     </section>

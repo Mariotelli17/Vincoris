@@ -8,14 +8,14 @@ export function SolucionSection() {
   return (
     <section className="mx-auto w-full max-w-6xl px-6 py-14 lg:py-20">
       <div className="mb-8 grid gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
-        <h2 className="text-3xl font-semibold text-white">{title}</h2>
-        <div className="relative h-52 overflow-hidden rounded-2xl border border-slate-800 bg-slate-900">
+        <h2 className="text-3xl font-semibold text-slate-900">{title}</h2>
+        <div className="relative h-52 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50">
           <Image
             alt="Equipo de asistencia domiciliaria coordinando cuidados personalizados en el hogar"
             className="object-cover"
             fill
             sizes="(max-width: 768px) calc(100vw - 3rem), (max-width: 1280px) 35vw, 420px"
-            src="/images/services/service-home-assistance-team.jpg"
+            src="/images/services/service-home-assistance-team.png"
           />
         </div>
       </div>

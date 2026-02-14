@@ -54,109 +54,113 @@ export type HomeContent = {
 export const homeContent: HomeContent = {
   hero: {
     eyebrow: "Vincoris",
-    title: "Estrategia y ejecución para convertir tu crecimiento en resultados medibles",
+    title: "Cuidado profesional en casa, con la confianza que tu familia merece",
     description:
-      "Alineamos marketing, procesos y tecnología para que tu empresa escale con claridad, foco y previsibilidad.",
+      "Asistencia especializada para personas mayores y personas con discapacidad.",
     ctas: [
       { label: "Solicitar valoración gratuita" },
       { label: "Hablar con un asesor", variant: "secondary" },
     ],
   },
   problema: {
-    title: "El problema que bloquea el crecimiento",
+    title: "Sabemos lo difícil que es delegar el cuidado de un ser querido",
     items: [
       {
-        title: "Acciones sin dirección",
-        description: "Se ejecutan tareas aisladas sin una estrategia integral que las conecte.",
+        title: "La preocupación constante",
+        description: "No puedes estar siempre presente, pero necesitas saber que tu familiar está bien cuidado y acompañado.",
       },
       {
-        title: "Baja visibilidad de resultados",
-        description: "No hay datos claros para saber qué funciona y qué está frenando el avance.",
+        title: "La inseguridad de confiar",
+        description: "Entregar el cuidado de alguien que amas a otra persona genera miedo e incertidumbre.",
       },
       {
-        title: "Dependencia operativa",
-        description: "El negocio crece solo cuando el equipo se sobrecarga, sin procesos escalables.",
+        title: "La falta de tiempo",
+        description: "Entre el trabajo, tus responsabilidades y el cuidado, sientes que no llegas a todo y necesitas apoyo.",
       },
     ],
   },
   solucion: {
-    title: "Nuestra solución",
+    title: "En VINCORIS ofrecemos asistencia profesional y humana en el hogar",
     items: [
       {
-        title: "Diagnóstico estratégico",
-        description: "Identificamos cuellos de botella y oportunidades de impacto inmediato.",
+        title: "Asistencia personal",
+        description: "Apoyo en higiene, movilidad y acompañamiento diario con respeto y dedicación.",
       },
       {
-        title: "Implementación guiada",
-        description: "Convertimos el plan en activos digitales, procesos y automatizaciones reales.",
+        title: "Cuidados especializados",
+        description: "Atención para dependencia, discapacidad física o cognitiva con profesionales cualificados.",
       },
       {
-        title: "Optimización continua",
-        description: "Ajustamos en base a métricas para mejorar rendimiento y rentabilidad.",
+        title: "Apoyo familiar",
+        description: "Seguimiento continuo y comunicación constante para que estés siempre informado y tranquilo.",
       },
     ],
   },
   diferenciacion: {
-    title: "¿Qué nos diferencia?",
+    title: "¿Por qué elegir VINCORIS?",
     description:
-      "Combinamos visión de negocio, experiencia digital y acompañamiento cercano para lograr avances sostenibles.",
+      "Nos comprometemos a ofrecer un servicio que combine profesionalidad, calidez humana y tranquilidad para tu familia.",
     pillars: [
       {
-        title: "Visión 360°",
-        description: "Integramos estrategia comercial, marketing y operaciones en un mismo sistema.",
+        title: "Personal cualificado y verificado",
+        description: "Todos nuestros profesionales pasan un proceso de selección riguroso y tienen formación específica en cuidados.",
       },
       {
-        title: "Equipo senior",
-        description: "Trabajas con especialistas que priorizan resultados y no solo entregables.",
+        title: "Atención personalizada",
+        description: "Adaptamos el servicio a las necesidades específicas de cada persona y su entorno familiar.",
       },
       {
-        title: "Acompañamiento humano",
-        description: "Construimos una relación de confianza con foco en decisiones claras y ágiles.",
+        title: "Seguimiento continuo",
+        description: "Mantenemos comunicación regular contigo para asegurar que todo funciona como esperas.",
+      },
+      {
+        title: "Servicio flexible",
+        description: "Ofrecemos asistencia por horas o servicio continuo, según lo que mejor se adapte a tu situación.",
       },
     ],
   },
   proceso: {
-    title: "Proceso de trabajo",
-    description: "Un método claro para avanzar con control, velocidad y enfoque en resultados.",
+    title: "Así de sencillo es empezar",
+    description: "Un proceso claro y transparente para que te sientas seguro desde el primer contacto.",
     steps: [
       {
-        title: "1. Descubrimiento",
-        description: "Analizamos tu contexto, objetivos y puntos críticos para priorizar acciones.",
+        title: "1. Contactas con nosotros",
+        description: "Llámanos o completa el formulario. Te escuchamos y resolvemos todas tus dudas sin compromiso.",
       },
       {
-        title: "2. Plan de acción",
-        description: "Definimos iniciativas concretas, responsables y métricas de seguimiento.",
+        title: "2. Evaluamos las necesidades",
+        description: "Realizamos una valoración gratuita para entender las necesidades específicas de tu familiar.",
       },
       {
-        title: "3. Ejecución y mejora",
-        description: "Implementamos, medimos y optimizamos en ciclos cortos de aprendizaje.",
+        title: "3. Asignamos el profesional adecuado",
+        description: "Seleccionamos el perfil más adecuado y coordinamos el inicio del servicio con total transparencia.",
       },
     ],
-    cta: { label: "Pedir información" },
+    cta: { label: "Solicitar valoración gratuita" },
   },
   testimonios: {
-    title: "Resultados contados por nuestros clientes",
+    title: "Lo que dicen las familias que confían en nosotros",
     items: [
       {
         quote:
-          "En 90 días pasamos de decisiones intuitivas a un sistema comercial con métricas y foco.",
-        author: "Laura Méndez",
-        role: "Directora Comercial",
+          "Desde que tenemos el apoyo de VINCORIS, mi madre está más tranquila y yo puedo trabajar con la tranquilidad de saber que está bien cuidada.",
+        author: "María González",
+        role: "Hija de usuaria",
       },
       {
         quote:
-          "Nos ayudaron a simplificar procesos internos y recuperar tiempo para crecer con orden.",
-        author: "Carlos Rivera",
-        role: "CEO",
+          "El profesional que nos asignaron es excelente. Tiene paciencia, es cariñoso y siempre nos mantiene informados. Es como un miembro más de la familia.",
+        author: "José Martínez",
+        role: "Hijo de usuario",
       },
     ],
   },
   ctaFinal: {
-    title: "Da el siguiente paso con una estrategia clara",
+    title: "La tranquilidad de tu familia empieza hoy",
     description:
-      "Si quieres crecer con una hoja de ruta accionable y acompañamiento experto, conversemos.",
+      "Contacta con nosotros sin compromiso. Estamos aquí para ayudarte a encontrar la mejor solución para tu familiar.",
     ctas: [
-      { label: "Solicitar valoración gratuita" },
+      { label: "Solicitar información ahora" },
       { label: "Hablar con un asesor", variant: "secondary" },
     ],
   },
